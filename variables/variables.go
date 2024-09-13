@@ -6,13 +6,19 @@ func main() {
 	firstName := "Mehedi"
 	lastName := "Hasan"
 
-	 var age int = 32
+	const mod uint32 = 1e9+7
+
+	var age int = 32
 
 	fmt.Print(firstName," ",lastName," -> ", age ,"\n")
 
+	firstName = "Jahid"
+
 	fmt.Printf("%s %s\n",firstName,lastName)
 
-	fmt.Println(firstName,lastName)
+	lastName = "Hossain"
+
+	fmt.Println(firstName,lastName,mod)
 }
 
 /*
