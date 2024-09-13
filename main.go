@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main(){
-	
-	fmt.Println("My name is Mehedi")
+	age := 25
+	fmt.Printf("My name is Mehedi %d", age)
+	fmt.Println(" Hasan")
 }
