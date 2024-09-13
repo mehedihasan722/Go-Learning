@@ -15,6 +15,8 @@ func displayInfo(s Student) {
 }
 
 func main() {
+
+	
 	mehedi := Student{101, "lal khan bazar", 30}
 	displayInfo(mehedi)
 }
